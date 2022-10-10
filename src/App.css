@@ -1,0 +1,52 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    background-color: rgb(226, 218, 207);
+}
+.todo-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-wrap: wrap;
+    background-color: rgb(242, 207, 158);
+}
+.list-con{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    background-color:#5DADE2;
+    padding: 10px ;
+    border-radius: 20px;
+    margin: 10px;
+}
+.list-main-con{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.input-container{
+    overflow: hidden;
+    border-radius: 20px;
+}
+.input-btn{
+    border: none;
+    outline: none;
+    padding: 12px;
+}
+.add-input{
+    border: none;
+    outline: none;
+    width: 30vw;
+    padding: 12px;
+}
+.add-btn{
+    background-color:#5DADE2 ;
+}
+
+.dlt-icone{
+    color : rgba(231, 90, 90, 0.841)
+}
